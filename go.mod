@@ -3,6 +3,7 @@ module github.com/martin-helmich/prometheus-nginxlog-exporter
 require (
 	github.com/armon/go-radix v1.0.0 // indirect
 	github.com/beorn7/perks v0.0.0-20160229213445-3ac7bf7a47d1 // indirect
+	github.com/conradolega/gonx v1.3.1-0.20191126042711-2715c3abd1a3
 	github.com/fsnotify/fsnotify v1.4.7 // indirect
 	github.com/golang/protobuf v0.0.0-20160614223140-0c1f6d65b5a1 // indirect
 	github.com/hashicorp/consul v0.0.0-20150921174127-de080672fee9
@@ -16,7 +17,6 @@ require (
 	github.com/prometheus/client_model v0.0.0-20150212101744-fa8ad6fec335 // indirect
 	github.com/prometheus/common v0.0.0-20160623151427-4402f4e5ea79 // indirect
 	github.com/prometheus/procfs v0.0.0-20160411190841-abf152e5f3e9 // indirect
-	github.com/satyrius/gonx v1.3.1-0.20180709120835-47c52b995fe5
 	github.com/smartystreets/goconvey v0.0.0-20190306220146-200a235640ff // indirect
 	github.com/stretchr/testify v1.4.0
 	golang.org/x/sys v0.0.0-20161023150541-c200b10b5d5e // indirect

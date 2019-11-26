@@ -26,13 +26,13 @@ import (
 	"sync"
 	"syscall"
 
+	"github.com/conradolega/gonx"
 	"github.com/martin-helmich/prometheus-nginxlog-exporter/config"
 	"github.com/martin-helmich/prometheus-nginxlog-exporter/discovery"
 	"github.com/martin-helmich/prometheus-nginxlog-exporter/prof"
 	"github.com/martin-helmich/prometheus-nginxlog-exporter/relabeling"
 	"github.com/martin-helmich/prometheus-nginxlog-exporter/tail"
 	"github.com/prometheus/client_golang/prometheus"
-	"github.com/satyrius/gonx"
 )
 
 // Metrics is a struct containing pointers to all metrics that should be
