@@ -25,7 +25,7 @@ import (
 	"strconv"
 	"sync"
 	"syscall"
-
+	"github.com/danielelisi/gonx"
 	"github.com/martin-helmich/prometheus-nginxlog-exporter/syslog"
 
 	"github.com/martin-helmich/prometheus-nginxlog-exporter/config"
@@ -35,7 +35,6 @@ import (
 	"github.com/martin-helmich/prometheus-nginxlog-exporter/tail"
 	"github.com/prometheus/client_golang/prometheus"
 	"github.com/prometheus/client_golang/prometheus/promhttp"
-	"github.com/satyrius/gonx"
 )
 
 type NSMetrics struct {
