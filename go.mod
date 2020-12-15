@@ -2,7 +2,7 @@ module github.com/martin-helmich/prometheus-nginxlog-exporter
 
 require (
 	github.com/armon/go-metrics v0.3.4 // indirect
-	github.com/danielelisi/gonx v1.3.2-0.20201209234346-fd4fdf7a33eb // indirect
+	github.com/freelancer/gonx v1.3.2-0.20201209234346-fd4fdf7a33eb
 	github.com/fsnotify/fsnotify v1.4.7 // indirect
 	github.com/google/btree v1.0.0 // indirect
 	github.com/hashicorp/consul/api v1.7.0

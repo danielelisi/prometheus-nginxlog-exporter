@@ -25,7 +25,8 @@ import (
 	"strconv"
 	"sync"
 	"syscall"
-	"github.com/danielelisi/gonx"
+
+	"github.com/freelancer/gonx"
 	"github.com/martin-helmich/prometheus-nginxlog-exporter/syslog"
 
 	"github.com/martin-helmich/prometheus-nginxlog-exporter/config"
